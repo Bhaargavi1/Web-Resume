@@ -1,0 +1,514 @@
+.subhead{
+    margin-top:10px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size:30px;
+    color: forestgreen;
+}
+.item{
+   min-height:580px;
+    overflow-x: scroll;
+}
+.web{
+  margin-left:20px;
+}
+nav{
+  background-color:#CFE7E9 !important;
+  border:1px solid #CFE7E9 !important;
+}
+/* -------------------
+FOR FRONT END SKILLS
+----------------------*/
+.frontend {
+  font-family: 'Ubuntu', sans-serif;
+   background-color:#CFE7E9;
+   margin-bottom:30px
+   height:110%;
+}
+
+.skillbar {
+  margin-left:40px;
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:90%;
+	background:#eee;
+	height:35px;
+}
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+    width:110px;
+	font-weight:bolder;
+	font-size:13px;
+	color:#ffffff;
+}
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+}
+.skillbar-bar {
+	height:35px;
+	width:0px;
+}
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+/* -------------------
+FOR BACK END SKILLS
+----------------------*/
+
+.chart-container {
+  position: relative;
+  margin: 15px auto 0;
+  width: 800px;
+  height: 480px;
+}
+
+.chart-container > table {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 100%;
+
+}
+
+.chart-container table  tr  td {
+  width: 100px;
+  height: 98px;
+  border: solid 1px  black;
+  background-color: #001a33;
+}
+ td{
+  color:#FF0000;
+  text-align: center;
+  font-weight: bold;
+ }
+
+.meter {
+  position: relative;
+  top: 10px;
+  left: -25px;
+  height: 480px;
+  background-color:#9999ff;
+  border-left: solid 1px rgba(255,255,255,0.5);
+}
+
+.meter:before {
+  content: "";
+  position: absolute;
+  top: -7px;
+  left: -15px;
+  width: 15px;
+  height: 480px;
+  background-color: rgba(14,81,117,0.9);
+   -moz-transform: skewY(45deg);
+  -o-transform: skewY(45deg);
+  -webkit-transform: skewY(45deg);
+  transform: skewY(45deg);
+}
+
+.meter:after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -8px;
+  width: 30px;
+  height: 15px;
+  background-color: rgba(13,171,217,0.45);
+   -moz-transform: skewX(45deg);
+  -o-transform: skewX(45deg);
+  -webkit-transform: skewX(45deg);
+  transform: skewX(45deg);
+}
+
+.meter li {
+  position: relative;
+  list-style-type: none;
+  height: 99px;
+  border-bottom: solid 1px black;
+}
+.meter li:last-child {
+  border-bottom: none;
+}
+
+.meter li div {
+  position: absolute;
+  left: -140px;
+  top:50px;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.bar {
+  float: left;
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+  height: 80%;
+  width: 40px;
+  margin: 0 40px;
+  background-color: rgba(107,255,49,0.35);
+}
+
+.bar:before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  bottom: 7px;
+  height: 100%;
+  width: 15px;
+  background-color: rgba(107,255,49,0.25);
+  -webkit-transform: skewY(45deg);
+}
+
+.bar:after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -8px;
+  width: 40px;
+  height: 15px;
+  background-color: rgba(107,255,49,0.45);
+  -moz-transform: skewX(45deg);
+  -o-transform: skewX(45deg);
+  -webkit-transform: skewX(45deg);
+  transform: skewX(45deg);
+}
+
+
+.two {
+  left: 12.5%;
+  height: 60%;
+}
+
+.three {
+  left: 25%;
+  height: 60%;
+}
+
+.four {
+  left: 37.5%;
+  height: 75%;
+}
+
+.five {
+  left: 50%;
+  height: 78%;
+}
+
+.six {
+  left: 62.5%;
+  height: 55%;
+}
+/* -----------------
+FOR DATABASE SKILLS
+------------------*/
+.skill_database{
+  margin-top:30px;
+  margin-left:40px;
+  width:85%;
+  height:120px;
+}
+.heading_db{
+  color:navy;
+  margin-left:20px;
+  margin-top:40px;
+}
+.bars{
+  margin-left:5px;
+  border-radius:10px;
+  height:50px;
+  width:40px;
+}
+.normal{
+  border:5px solid grey;
+}
+.special{
+  border:5px solid red;
+}
+
+
+
+/* -------------------
+FOR PROGRAMMING SKILLS
+----------------------*/
+
+#programmin{
+  width:80%;
+}
+
+.margin_top{
+  margin-top:40px;
+  margin-bottom:30px;
+  margin-left:0px;
+}
+.item_skill h2 {
+    position: absolute;
+    line-height: 125px;
+    width: 100%;
+}
+
+svg {
+    transform: rotate(-90deg);
+}
+
+.circle_animation {
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+
+.cprog .circle_animation {
+    -webkit-animation: html 1s ease-out forwards;
+    animation: cprog 1s ease-out forwards;
+}
+
+.cpp .circle_animation {
+    -webkit-animation: css 1s ease-out forwards;
+    animation: cpp 1s ease-out forwards;
+}
+
+.py .circle_animation {
+    -webkit-animation: css 1s ease-out forwards;
+    animation: py 1s ease-out forwards;
+}
+
+@-webkit-keyframes cprog {
+  to {stroke-dashoffset: 150;}
+}
+
+@keyframes cprog {
+  to {stroke-dashoffset: 150;}
+}
+
+@-webkit-keyframes cpp {
+  to {stroke-dashoffset: 130;}
+}
+
+@keyframes cpp {
+  to {stroke-dashoffset: 130;}
+}
+
+@-webkit-keyframes py {
+  to {stroke-dashoffset: 200;}
+}
+
+@keyframes py {
+  to {stroke-dashoffset: 200;}
+}
+
+/* -------------------
+FOR Data Analysis Skills
+----------------------*/
+
+.data_skills{
+    overflow:hidden;
+    height:110%;
+    margin-bottom:30px;
+    text-align:center;
+}
+.hard_page{
+  margin-top:150px; 
+  font-size:16px;
+  margin-left:10px;
+  width:90%;
+}
+
+.end_page{
+  font-size:16px;
+  margin-top:140px;
+  margin-left:130px;
+}
+.end_page_1{
+  margin-top:80px;
+  margin-left:140px;
+  font-weight:bold;
+  font-size:16px;
+}
+.end_page_3{
+  margin-top:300px;
+  margin-left:170px;
+  font-weight:bold;
+  font-size:16px;
+}
+.page_desc, .libraries{
+  font-weight:normal;
+  font-size:16px;
+  margin-top:30px;
+}
+.libraries{
+  margin-top:45px;
+}
+
+#flipbook{
+    margin-top:50px;
+    margin-bottom:50px;
+    width:100%;
+    height:550px;
+}
+
+
+#flipbook .page{
+    width:100%;
+    height:550px;
+    background-color:white;
+    font-size:20px;
+    text-align:center;
+}
+
+#flipbook .page-wrapper{
+    -webkit-perspective:2000px;
+    -moz-perspective:2000px;
+    -ms-perspective:2000px;
+    -o-perspective:2000px;
+    perspective:2000px;
+}
+
+#flipbook .hard{
+    background:#ccc !important;
+    color:#333;
+    -webkit-box-shadow:inset 0 0 5px #666;
+    -moz-box-shadow:inset 0 0 5px #666;
+    -o-box-shadow:inset 0 0 5px #666;
+    -ms-box-shadow:inset 0 0 5px #666;
+    box-shadow:inset 0 0 5px #666;
+    font-weight:bold;
+}
+
+#flipbook .odd{
+    background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #FFF), color-stop(1, #DADADA));
+    background-image:-webkit-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:-moz-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:-ms-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:-o-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    -webkit-box-shadow:inset 0 0 5px #666;
+    -moz-box-shadow:inset 0 0 5px #666;
+    -o-box-shadow:inset 0 0 5px #666;
+    -ms-box-shadow:inset 0 0 5px #666;
+    box-shadow:inset 0 0 5px #666;
+    
+}
+
+#flipbook .even{
+    background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #fff), color-stop(1, #dadada));
+    background-image:-webkit-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-moz-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-ms-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-o-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:linear-gradient(left, #fff 95%, #dadada 100%);
+    -webkit-box-shadow:inset 0 0 5px #666;
+    -moz-box-shadow:inset 0 0 5px #666;
+    -o-box-shadow:inset 0 0 5px #666;
+    -ms-box-shadow:inset 0 0 5px #666;
+    box-shadow:inset 0 0 5px #666;
+}
+/* -------------------
+FOR My Interests
+----------------------*/
+.subheading{
+     margin-top:10px;
+     margin-left:30px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size:30px;
+    color:forestgreen;
+    display:none;
+}
+
+/* For others Skills */ 
+.card_others{
+  margin-left:90px;
+  margin-top:30px;
+  height:250px;
+  width:60%;
+  margin-bottom:20px;
+}
+.img_skills{
+  margin:10px;
+  width:92%;
+  height:220px;
+}
+.margins_others{
+  margin-top:40px;
+}
+.soft_skills_1{
+  margin-left:20px;
+  margin-top:10px;
+  margin-bottom:30px;
+}
+.hovereffect {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.hovereffect:hover img {
+   filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+}
+
+.hovereffect h2 {
+  margin-top:60px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+  background-color: transparent;
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+.hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}

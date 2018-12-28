@@ -1,0 +1,196 @@
+@media only screen and (max-width: 600px) {
+     
+  /* For About me Page*/
+    
+  .qualify{
+    	padding:30px 5px 30px 30px;
+    }
+
+	.img_qualify{
+	 padding-left:70px !important;
+	 background:none !important;
+	 -ms-transform: rotate(0deg) !important; 
+    -webkit-transform: rotate(0deg) !important; 
+    transform: rotate(0deg) !important;
+   }
+
+   .intro_card{
+   	padding-left:40px;
+   	padding-right:0px;
+   }
+
+   .center_text{
+   	padding-left:75px;
+   }
+
+   .contact_mobile{
+   	padding-left:40px;
+   	width:110%;
+   	height:550px
+   }
+
+   /* For My Experience Page*/
+   .full_width{
+      width:100%;
+   }
+    .card_desc{
+        margin-top:-50%;
+        width:108%;
+    }
+    .card_experience{
+        margin-top:70%;
+        margin-left:52%;
+        width:90%;
+    }
+
+    .card_details2{
+        margin-top:-40%;
+        margin-left:1%;
+    }
+    .card3{
+        margin-top:70%;
+    }
+    .card_desc3{
+        margin-top:-36%;
+    }
+    .card_details4{
+        margin-top:-40%;
+        margin-left:1%;
+    }
+  
+
+  /* For MY Projects page */
+
+.curtain{
+  top:280px;
+  height:900px;
+}
+.curtain2{
+  display:none;
+}
+
+.frontend_projects{
+  margin-top: 40px;
+  margin-left:15px;
+  width: 115%;
+  height: 1200px;
+}
+.backend_projects{
+  margin-left:15px;
+  width:115%;
+}
+#slider, #carousel_3d_food, .container_rest, div#carousel_3d_food ~ span{
+  display:none !important;
+}
+#myCarousel_chat, #myCarousel_food, #myCarousel_hotel{
+  display:block !important;
+}
+
+ #contain1{
+    top:52%;
+    left:-30%;
+ }
+
+ #contain2{
+   top:140%;
+   left:-30%;
+ }
+ 
+ #contain3{
+  top:950px;
+  left:-30%;
+ }
+ .intro_data{
+  margin-top:1200px;
+  text-align:center;
+ }
+ #myCarousel{
+    margin-bottom:20px;
+ }
+ .datascience_projects{
+  margin-left:15px;
+  width:115%;
+  margin-bottom:20px;
+}
+figure#spinner img {
+    height: 330px;
+    width: 350px;
+    position: absolute;
+    left: 12%;
+    transform-origin: 50% 50% -600px;
+}
+
+ /* for myskills page */ 
+
+.meter{
+  display:none;
+}
+.chart-container, .chart-container > table{
+  width:100%;
+}
+.chart-container td{
+  font-size:12px;
+}
+.one{margin-left:18px;}
+.two{margin-left:20px;}
+.three{margin-left:39px;}
+.four{margin-left:52px;}
+.five{margin-left:55px;}
+.six{margin-left:63px;}
+
+.bar{
+  width:16px;
+}
+.bar:after{
+  width:16px;
+}
+.margin_top{
+  margin-top:10px;
+  margin-left:50px;
+}
+
+.card_others{
+  margin-left:10px;
+  width:100%;
+}
+#flipbook{
+    margin-top:50px;
+    margin-left:10px!important ;
+    margin-bottom:50px;
+    width:300px;
+    height:550px;
+}
+
+#flipbook .page{
+    width:300px;
+    height:550px;
+    background-color:white;
+    font-size:20px;
+    text-align:center;
+}
+.hard_page{
+  display:none;
+}
+.end_page{
+  margin-top:280px;
+  margin-left:20px;
+}
+.page_desc{
+  font-size:14px;
+}
+.libraries{
+  display:none;
+}
+.end_page_1{
+  margin-top:55px;
+  font-size:12px;
+  margin-left:35px;
+}
+.end_page_3{
+  margin-top:145px;
+  font-size:12px;
+  margin-left:35px;
+}
+
+
+}

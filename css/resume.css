@@ -1,0 +1,21 @@
+html{
+	overflow:auto!important;
+}
+
+body{
+    background-color:#CFE7E9;
+    overflow-y:visible;
+}
+
+.navbar-default{
+    background-color:#CFE7E9;
+    border-color:#CFE7E9;
+    color:black !important;
+}
+.nav_intro{
+    background-color:light-grey;
+    border-radius:30px;
+}
+.margin_left1{
+	margin-left:10px;
+}
